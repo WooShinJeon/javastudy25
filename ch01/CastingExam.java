@@ -6,8 +6,8 @@ public class CastingExam {
 		int intValue = 123456789 ;
 		byte byteValue = (byte)intValue ;
 		
-		System.out.println("int Å¸ÀÔ °ª Ãâ·Â : " + intValue);
-		System.out.println("byte Å¸ÀÔ °ª Ãâ·Â : " + byteValue);
+		System.out.println("int íƒ€ì… ê°’ ì¶œë ¥ : " + intValue);
+		System.out.println("byte íƒ€ì… ê°’ ì¶œë ¥ : " + byteValue);
 		// 123456789 -> 0111 0101 1011 1100 1101 0001 0101
 		//                                       0001 0101 -> 21
 		
@@ -16,14 +16,14 @@ public class CastingExam {
 		int mat = 93 ;
 		int eng = 87 ;
 		int total = kor + mat + eng ;
-		System.out.println("===== ¼ºÀûÇ¥ =====");
-		System.out.println("±¹¾î + ¼öÇĞ + ¿µ¾î = ÃÑÁ¡ : " +total);
+		System.out.println("===== ì„±ì í‘œ =====");
+		System.out.println("êµ­ì–´ + ìˆ˜í•™ + ì˜ì–´ = ì´ì  : " +total);
 		
 		double avg = total / 3 ;
-		System.out.println("Æò±Õ(ÀÚµ¿Å¸ÀÔº¯È¯) : " +avg);
+		System.out.println("í‰ê· (ìë™íƒ€ì…ë³€í™˜) : " +avg);
 		
 		avg = (double)total / 3 ;
-		System.out.println("Æò±Õ(°­Á¦Å¸ÀÔº¯È¯) : " +avg);
+		System.out.println("í‰ê· (ê°•ì œíƒ€ì…ë³€í™˜) : " +avg);
 
 	}
 

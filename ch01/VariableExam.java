@@ -8,7 +8,7 @@ public class VariableExam {
 		mach = 340 ;
 		distance = mach * 60 * 60 ;
 		
-		System.out.println("¼Ò¸®°¡ ÇÑ½Ã°£µ¿¾È °¡´Â°Å¸®");
+		System.out.println("ì†Œë¦¬ê°€ í•œì‹œê°„ë™ì•ˆ ê°€ëŠ”ê±°ë¦¬");
 		System.out.println(distance + "m");
 		
 		
@@ -17,8 +17,8 @@ public class VariableExam {
 		radius = 10 ;
 		area = radius * radius * 3.14 ;
 				
-		System.out.print("¹İÁö¸§ÀÌ " + radius + "ÀÎ ");
-		System.out.println("¿øÀÇ ³ĞÀÌ : " + area);
+		System.out.print("ë°˜ì§€ë¦„ì´ " + radius + "ì¸ ");
+		System.out.println("ì›ì˜ ë„“ì´ : " + area);
 		
 		
 		

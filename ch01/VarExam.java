@@ -25,15 +25,15 @@ public class VarExam {
 		total = kor + mat + eng + his ;
 		avg = total / 4 ;
 		
-		System.out.println("ÃÑÁ¡ : " + total);
-		System.out.println("Æò±Õ : " + avg);
+		System.out.println("ì´ì  : " + total);
+		System.out.println("í‰ê·  : " + avg);
 		
 		
-		char firstname = '±è' ;
-		char firstName = 'ÀÌ' ;
+		char firstname = 'ê¹€' ;
+		char firstName = 'ì´' ;
 		
-		System.out.println("¼º : " + firstname);
-		System.out.println("¼º : " + firstName);
+		System.out.println("ì„± : " + firstname);
+		System.out.println("ì„± : " + firstName);
 		
 		
 		int literal1 = 75 ;
@@ -41,10 +41,10 @@ public class VarExam {
 		int literal3 = 0b0010 ;
 		int literal4 = 0xA ;
 		
-		System.out.println("10Áø¼ö 75 : " + literal1);
-		System.out.println("8Áø¼ö 75 : " + literal2);
-		System.out.println("2Áø¼ö 0010 : " + literal3);
-		System.out.println("16Áø¼ö A : " + literal4);
+		System.out.println("10ì§„ìˆ˜ 75 : " + literal1);
+		System.out.println("8ì§„ìˆ˜ 75 : " + literal2);
+		System.out.println("2ì§„ìˆ˜ 0010 : " + literal3);
+		System.out.println("16ì§„ìˆ˜ A : " + literal4);
 		
 		
 

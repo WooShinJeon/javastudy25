@@ -8,20 +8,20 @@ public class LogicalAndExam {
 		
 		Scanner input = new Scanner(System.in);
 		
-		System.out.println("Á¤¼ö¸¦ ÀÔ·ÂÇÏ½Ã¸é ´ë¼Ò¹®ÀÚ³ª ¼ýÀÚ¸¦ ÆÇ´ÜÇØµå¸³´Ï´Ù!");
-		System.out.println("À¯´ÏÄÚµåÇ¥¸¦ Âü°íÇÏ¿© ÇÁ·Î±×·¥À» Á¦ÀÛÇÏ¿´½À´Ï´Ù.");
-		System.out.print("¼ýÀÚÀÔ·Â >>> ");
+		System.out.println("ì •ìˆ˜ë¥¼ ìž…ë ¥í•˜ì‹œë©´ ëŒ€ì†Œë¬¸ìžë‚˜ ìˆ«ìžë¥¼ íŒë‹¨í•´ë“œë¦½ë‹ˆë‹¤!");
+		System.out.println("ìœ ë‹ˆì½”ë“œí‘œë¥¼ ì°¸ê³ í•˜ì—¬ í”„ë¡œê·¸ëž¨ì„ ì œìž‘í•˜ì˜€ìŠµë‹ˆë‹¤.");
+		System.out.print("ìˆ«ìžìž…ë ¥ >>> ");
 		int charCode = input.nextInt();
 		
 		if( (charCode >= 65) && (charCode <= 90)) {
-			System.out.println("ÇöÀç ÀÔ·ÂµÈ ¼ýÀÚ´Â ´ë¹®ÀÚÀÔ´Ï´Ù : " +(char)charCode);
+			System.out.println("í˜„ìž¬ ìž…ë ¥ëœ ìˆ«ìžëŠ” ëŒ€ë¬¸ìžìž…ë‹ˆë‹¤ : " +(char)charCode);
 		} else if( (charCode >= 97) && (charCode <= 122)) {
-			System.out.println("ÇöÀç ÀÔ·ÂµÈ ¼ýÀÚ´Â ¼Ò¹®ÀÚÀÔ´Ï´Ù : " +(char)charCode);
+			System.out.println("í˜„ìž¬ ìž…ë ¥ëœ ìˆ«ìžëŠ” ì†Œë¬¸ìžìž…ë‹ˆë‹¤ : " +(char)charCode);
 		} else if( (charCode >= 48) && (charCode <= 57)) {
-			System.out.println("ÇöÀç ÀÔ·ÂµÈ ¼ýÀÚ´Â À¯´ÏÄÚµåÀÇ ¹®ÀÚÇü¼ýÀÚÀÔ´Ï´Ù : " +(char)charCode);
+			System.out.println("í˜„ìž¬ ìž…ë ¥ëœ ìˆ«ìžëŠ” ìœ ë‹ˆì½”ë“œì˜ ë¬¸ìží˜•ìˆ«ìžìž…ë‹ˆë‹¤ : " +(char)charCode);
 		} else {
-			System.out.println("´ë¹®ÀÚ, ¼Ò¹®ÀÚ, ¼ýÀÚÀÇ À¯´ÏÄÚµåÇ¥¿¡ ¾ø´Â ¼ýÀÚÀÔ´Ï´Ù.");
-			System.out.println("ÇÁ·Î±×·¥À» ´Ù½Ã ½ÇÇàÇØÁÖ¼¼¿ä.");
+			System.out.println("ëŒ€ë¬¸ìž, ì†Œë¬¸ìž, ìˆ«ìžì˜ ìœ ë‹ˆì½”ë“œí‘œì— ì—†ëŠ” ìˆ«ìžìž…ë‹ˆë‹¤.");
+			System.out.println("í”„ë¡œê·¸ëž¨ì„ ë‹¤ì‹œ ì‹¤í–‰í•´ì£¼ì„¸ìš”.");
 		}
 		
 	}

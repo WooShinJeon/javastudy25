@@ -12,37 +12,37 @@ public class LogicalExam {
 		
 		
 		
-		System.out.print("È¸¿ø°¡ÀÔÇÒ id¸¦ ÀÔ·ÂÇØÁÖ¼¼¿ä : ");
+		System.out.print("íšŒì›ê°€ì…í•  idë¥¼ ì…ë ¥í•´ì£¼ì„¸ìš” : ");
 		String loginid = input.nextLine();
 		
-		System.out.print("È¸¿ø°¡ÀÔÇÒ ¾ÏÈ£¸¦ ÀÔ·ÂÇØÁÖ¼¼¿ä : ");
+		System.out.print("íšŒì›ê°€ì…í•  ì•”í˜¸ë¥¼ ì…ë ¥í•´ì£¼ì„¸ìš” : ");
 		String loginpw1 = input.nextLine();
-		System.out.print("¾ÏÈ£ È®ÀÎ : ");
+		System.out.print("ì•”í˜¸ í™•ì¸ : ");
 		String loginpw2 = input.nextLine();
 		
 		if(loginpw1.equals(loginpw2)) {
-			System.out.println("¾ÏÈ£°¡ ÀÏÄ¡ÇÕ´Ï´Ù.");
-			System.out.println("È¸¿ø°¡ÀÔÀÌ ¿Ï·áµÇ¼Ì½À´Ï´Ù.");
+			System.out.println("ì•”í˜¸ê°€ ì¼ì¹˜í•©ë‹ˆë‹¤.");
+			System.out.println("íšŒì›ê°€ì…ì´ ì™„ë£Œë˜ì…¨ìŠµë‹ˆë‹¤.");
 			
-			System.out.print("·Î±×ÀÎÇÒ id¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
+			System.out.print("ë¡œê·¸ì¸í•  idë¥¼ ì…ë ¥í•˜ì„¸ìš” : ");
 			String id = input.nextLine();
 			
-			System.out.print("·Î±×ÀÎÇÒ ¾ÏÈ£¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
+			System.out.print("ë¡œê·¸ì¸í•  ì•”í˜¸ë¥¼ ì…ë ¥í•˜ì„¸ìš” : ");
 			String pw = input.nextLine();
-			System.out.println("===== °ËÁõ ÁßÀÔ´Ï´Ù. =====");
+			System.out.println("===== ê²€ì¦ ì¤‘ì…ë‹ˆë‹¤. =====");
 			
 			if( (loginid.equals(id)) & loginpw2.equals(pw) ) {
-				System.out.println("id¿Í ¾ÏÈ£°¡ ÀÏÄ¡ÇÕ´Ï´Ù.");
-				System.out.println("·Î±×ÀÎ ¼º°ø!!!!!!");
+				System.out.println("idì™€ ì•”í˜¸ê°€ ì¼ì¹˜í•©ë‹ˆë‹¤.");
+				System.out.println("ë¡œê·¸ì¸ ì„±ê³µ!!!!!!");
 			}else { 
-				System.out.println("id³ª ¾ÏÈ£°¡ ÀÏÄ¡ÇÏÁö ¾Ê½À´Ï´Ù.");
-				System.out.println("·Î±×ÀÎ ½ÇÆĞ!!!!!!");
+				System.out.println("idë‚˜ ì•”í˜¸ê°€ ì¼ì¹˜í•˜ì§€ ì•ŠìŠµë‹ˆë‹¤.");
+				System.out.println("ë¡œê·¸ì¸ ì‹¤íŒ¨!!!!!!");
 			
 			}
 			
 		}else {
-			System.out.println("¾ÏÈ£¸¦ ´Ù½Ã È®ÀÎÇØÁÖ¼¼¿ä.");
-			System.out.println("id¿Í ¾ÏÈ£¸¦ ´Ù½Ã ÀÔ·ÂÇØÁÖ¼¼¿ä.");
+			System.out.println("ì•”í˜¸ë¥¼ ë‹¤ì‹œ í™•ì¸í•´ì£¼ì„¸ìš”.");
+			System.out.println("idì™€ ì•”í˜¸ë¥¼ ë‹¤ì‹œ ì…ë ¥í•´ì£¼ì„¸ìš”.");
 			
 		}
 		

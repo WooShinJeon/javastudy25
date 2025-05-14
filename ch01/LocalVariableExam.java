@@ -16,9 +16,9 @@ public class LocalVariableExam {
 		
 		int v3 = v1 + v2 + 5 ;
 		
-		System.out.println("v1ÀÇ °ª : " + v1);
-		System.out.println("v2ÀÇ °ª : " + v2);
-		System.out.println("v3ÀÇ °ª : " + v3);
+		System.out.println("v1ì˜ ê°’ : " + v1);
+		System.out.println("v2ì˜ ê°’ : " + v2);
+		System.out.println("v3ì˜ ê°’ : " + v3);
 		
 		
 		
