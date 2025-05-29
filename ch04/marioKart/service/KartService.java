@@ -27,6 +27,7 @@ public class KartService {
 								+ kartDTOs[i].handling + " | 마찰력 : " + kartDTOs[i].friction);
 					}
 				}
+				System.out.println("메뉴로 돌아갑니다.");
 				break;
 
 			case "2":
@@ -38,6 +39,7 @@ public class KartService {
 								+ tireDTOs[i].handling + " | 마찰력 : " + tireDTOs[i].friction);
 					} // if문 종료
 				} // for문 종료
+				System.out.println("메뉴로 돌아갑니다.");
 				break;
 
 			case "3":
@@ -49,6 +51,7 @@ public class KartService {
 								+ " | 핸들링 : " + gliderDTOs[i].handling + " | 마찰력 : " + gliderDTOs[i].friction);
 					}
 				}
+				System.out.println("메뉴로 돌아갑니다.");
 				break;
 
 			case "4":
